@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  /* width: 100vw; */
+  height: 100vh;
+}
+.AppHeader {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px 4px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.SideMenuAndPageContent {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.search-container {
+  /* width: 500px; */
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.search-inner {
+  display: flex;
+}
+
+.search-inner input
+{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 25rem;
+    border-radius: 7px;
+}
+
+.search-inner button
+{
+    padding: 3px 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.search-inner button:hover
+{
+    color: white;
+    background-color: black;
+}

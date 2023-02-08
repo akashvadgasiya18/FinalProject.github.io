@@ -1,0 +1,16 @@
+.SideMenu{
+    height: 100%;
+    width: 300px;
+   
+    
+    
+}
+.SideMenuVertical{
+    height: 100%;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    /* align-items: flex-start; */
+    /* justify-items: flex-start; */
+    
+}
